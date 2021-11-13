@@ -9,8 +9,10 @@
   justify-content: center;
 }
 
-.nav-item:not(:last-child) {
-  margin-right: 8px;
+.nav-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .nav-btn {

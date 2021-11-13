@@ -1,11 +1,12 @@
-@import './utils/vars';
+@import './utils/mixins';
 @import './base/reset';
 @import './base/common';
-@import './utils/hidden';
+
 @import './components/container';
 @import './components/btn';
 @import './components/pre-after-title';
 @import './components/social-links';
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/about';
@@ -18,3 +19,7 @@
 @import './layout/modal';
 @import './layout/portfolio-nav';
 @import './layout/portfolio-menu-nav';
+
+@import './utils/variables';
+@import './utils/hidden';
+@import './utils/placeholder';
